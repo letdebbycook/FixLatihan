@@ -1,0 +1,16 @@
+name: [nama proses]
+
+on:
+  push:
+    branches:
+      - [nama branch]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: [OS]
+
+    steps:
+      - name: [nama action]
+        uses: [nama tools]
+
